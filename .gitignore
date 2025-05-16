@@ -1,0 +1,29 @@
+# Python ignores
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+*.env
+.env
+*.egg-info/
+db.sqlite3
+*.pyc
+*.pyo
+*.pyd
+
+# Django ignores
+/media/
+staticfiles/
+*.pot
+
+# Virtual environment
+venv/
+ENV/
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
