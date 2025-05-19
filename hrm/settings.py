@@ -30,6 +30,7 @@ ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', 'hrms.vigyantechnology.com').split(',
 ALLOWED_HOSTS.append('stages-driven-here-nominated.trycloudflare.com') 
 ALLOWED_HOSTS.append('192.168.1.17') #for app ip
 ALLOWED_HOSTS.append('hrms.webesidetechnology.com') #for app ip
+ALLOWED_HOSTS.append('www.hrms.webesidetechnology.com') #for app ip
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
