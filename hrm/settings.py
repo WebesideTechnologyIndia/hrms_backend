@@ -184,11 +184,11 @@ WSGI_APPLICATION = 'hrm.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.oracle',
-        'NAME': 'free',  # Service name or SID, check if this matches
-        'USER': 'system',
-        'PASSWORD': 'Rahul@121005',
-        'HOST': ' 192.168.1.17',  # This should be the host IP
-        'PORT': '1521',  # Ensure this is correct
+        'NAME': 'XE', 
+        'USER': 'HRMSVPS',
+        'PASSWORD': 'password123',
+        'HOST': '93.127.198.15',
+        'PORT': '1521',
     }
 }
 
