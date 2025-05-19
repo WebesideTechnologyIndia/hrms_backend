@@ -34,17 +34,20 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "https://stages-driven-here-nominated.trycloudflare.com",
     "http://192.168.1.3:5173",  # your local address
+    'hrms.webesidetechnology.com', 'www.hrms.webesidetechnology.com'
 ]
 
 CSRF_TRUSTED_ORIGINS = [
     "http://localhost:5173",
     "https://stages-driven-here-nominated.trycloudflare.com",
-    "http://192.168.1.3:5173",  # your local address
+    "http://192.168.1.3:5173",
+      'hrms.webesidetechnology.com', 'www.hrms.webesidetechnology.com'  # your local address
 ]
 
   # Add your frontend URL here if needed
 CORS_ALLOWED_ORIGINS.append("http://192.168.1.3:5173")
 CSRF_TRUSTED_ORIGINS.append("http://192.168.1.3:5173")
+CSRF_TRUSTED_ORIGINS.append('hrms.webesidetechnology.com', 'www.hrms.webesidetechnology.com')
 
 # Add this setting if using ngrok
 USE_X_FORWARDED_HOST = True
